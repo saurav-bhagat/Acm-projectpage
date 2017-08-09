@@ -20,12 +20,31 @@
     <meta itemprop="image" content="img/logo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ --> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">  
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <style>
     .nav-wrapper .active{
         color: blue !important;
+    }
+    #dev-link{
+        color: black;
+    }
+    #dev-link:hover{
+        color: blue;
+    }
+    #home_link:hover{
+        color: white;
+    }
+    .increase_width{
+        width: 160px;
+    }
+    @media screen and (min-width: 540px) {
+        .increase_width {
+            width: 190px;
+        }
     }
     </style>
 
@@ -36,13 +55,13 @@
     <!-- navbar section-->
     <nav>
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><!-- <img src="img/iconified/fifty7.png" width="65px"> --><strong>Acm</strong> Projects</a>
+            <a href="index.html" class="brand-logo"><img src="img/acm.png" class="responsive-img" width="100px" ><span style="vertical-align: text-bottom;padding-left: 20px;"><strong>ACM</strong> Projects</span></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li class="active"><a href="#"><strong>HOME</strong></a></li>
+                <li class=""><a href="index.html" id="home_link"><strong>HOME</strong></a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
             </ul>
         </div>
     </nav>
@@ -56,7 +75,7 @@
             <div class="container row">
             <div class="col s7">
                 <p style="font-size: 24px;padding-top: 25px;margin-bottom: 0;">Biomet-2018</p>
-                <p><a href="https://github.com/saurav-bhagat/biomet">github.com/saurav-bhagat/biomet</a></p>
+                <p><a href="https://github.com/saurav-bhagat/biomet">http://vit.ac.in/biomet2018</a></p>
             </div>
             <div class="col s5">
                 <img src="img/biomet_logo.png" class="responsive-img">
@@ -66,24 +85,46 @@
         <div class="container">
             <div class="row">
                 <div class="col m8 s12">
-                    <h5>Biomet website:</h5>
+                    <h4>Biomet website:</h4>
                     <br>
-                    <p>BioMET 2018 will be an attempt to bring in leading scientists of various fields, clinicians and delegates from healthcare industry together on a single platform.The conference will consist of two days pre-conference workshop (24th-25th July) followed by the three days (26th-28th July) conference that includes- keynote and plenary sessions, brain-storming panel discussions by invited speakers, oral and poster presentation by participants.</p>
+                    <p>BioMET 2018 will be an attempt to bring in leading scientists of various fields, clinicians and delegates from healthcare industry together on a single platform. Scientists, clinicians and engineers, from all around the world, having varied research interests like-biomaterials, nanotechnology, tissue engineering, stem cells, molecular biology, drug delivery and gene therapy are invited to critically discuss the challenges and options in clinical theranostics.  Our Technical Team build and manages their official website</p>
                     <div class="center-align">
                         <img src="img/vit_logo.jpg" class="responsive-img">
                     </div>
+                    <br><br>
                 </div>
                 <div class="col m4 s12">
-                    <h5><u>Category</u></h5>
+                    <!-- <h5><u>Category</u></h5>
                     <p>Website</p>
                     <br>
-                    <h5><u>Technology</u></h5>
-                    <p>Jekyll</p>
-                    <p>Bootstrap</p>
+                    <h5><u>Developer</u></h5>
+                    <p><a href="http://saurav.surge.sh" id="dev-link">Saurav Bhagat</a></p>
                     <br>
+                    <h5><u>Technology</u></h5>
+                    <p>Jekyll, JavaScript, HTML5, CSS3</p>
+                    <br>
+
                     <h5><u>Status</u></h5>
                     <p>Complete</p>
-                    <br>
+                    <br> -->
+                    <div class="row">
+                        <div class="col m12 s6">
+                            <h5><u>Category</u></h5>
+                            <p>Website</p>
+                        </div>
+                        <div class="col m12 s6">
+                            <h5><u>Developer</u></h5>
+                            <p><a href="http://saurav.surge.sh" id="dev-link">Saurav Bhagat</a></p>
+                        </div>
+                        <div class="col m12 s6">
+                            <h5><u>Technology</u></h5>
+                            <p>Jekyll, JavaScript, HTML5, CSS3</p>
+                        </div>
+                        <div class="col m12 s6">
+                            <h5><u>Status</u></h5>
+                            <p>Complete</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,14 +134,43 @@
 
 
     <!-- Footer Section-->
-    <div class="section #424242 grey darken-3" style="color: #f2f2f2;">
+    <!-- <div class="section #424242 grey darken-3" style="color: #f2f2f2;">
         <div style="padding-left: 20px;">
             <ul id="footer-ul">
-                <li class="footer-li"><a href="#"><strong>ACM</strong></a> </li>
+                <li class="footer-li"><a href="http://acmvit.in"><strong>ACM</strong></a> </li>
                 <li class="footer-li"><a href="#">HOME</a></li>
             </ul>
         </div>
-    </div>
+    </div> -->
+    <footer style="background-color: #f2f2f2"><br><br>
+      <div class="container" >
+        <div class="row" style="margin-bottom:0;">
+          <div class="col m4 s6 center-align">
+            <a href="http://acmvit.in">
+              <img src="img/acm.png" class="increase_width" >
+            </a>
+          </div>
+          <div class="col m4 s6 show-on-small-only hide-on-med-and-up center-align">
+            <a href="https://vit.ac.in">
+              <img src="img/vitlogo.png" width="160px">
+            </a>
+          </div>
+          <div class="col m4 s12  center-align">
+            <a class="github_red" href="https://github.com/ACM-VIT" ><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;
+            <a class="fb_blue" href="https://facebook.com/ACM.VITU"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <div><a href="http://acmvit.in" target="_blank">acmvit.in</a></div>
+            <div><a  href="mailto:vituacm@gmail.com" target="_top">vituacm@gmail.com</a></div>
+            <div>+91 8279887513</div>
+
+          </div>
+          <div class="col m4 hide-on-small-only center-align">
+            <a href="https://vit.ac.in">
+              <img src="img/vitlogo.png" class="increase_width" >
+            </a>
+          </div>
+
+        </div>
+      </footer>
     <!-- Research heading ends -->
 
 
