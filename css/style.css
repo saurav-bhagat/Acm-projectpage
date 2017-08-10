@@ -1,4 +1,8 @@
-
+#techprojects{
+  /*background-image: url('../img/acmbluelogo.jpg');
+  background-size: cover;*/
+  background-color: #f2f2f2;
+}
 
 nav{
 	background-color: white;
@@ -32,9 +36,9 @@ nav a{
     left: 30%;
 	}
 }
-#techprojects{
+/*#techprojects{
 	background-color: #f2f2f2;
-}
+}*/
 
 .viewproject{
 	font-size: 17px;
@@ -45,11 +49,11 @@ nav a{
     border-top: initial;
   }
   .imageshowincard{
-  	  background: #f5f5f5; /* For browsers that do not support gradients */
-	  background: -webkit-linear-gradient(left, #f5f5f5,white); /* For Safari 5.1 to 6.0 */
-	  background: -o-linear-gradient(right,#f5f5f5,white ); /* For Opera 11.1 to 12.0 */
-	  background: -moz-linear-gradient(right,#f5f5f5,white ); /* For Firefox 3.6 to 15 */
-	  background: linear-gradient(to right, #f5f5f5,white ); /* Standard syntax */
+  	  background: #e0e0e0; /* For browsers that do not support gradients */
+	  background: -webkit-linear-gradient(left, #e0e0e0,white); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(right,#e0e0e0,white ); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(right,#e0e0e0,white ); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(to right, #e0e0e0,white ); /* Standard syntax */
 /*	  width: 197px;
 	  margin-left: 0px;*/
      margin-left: 0px; 
@@ -91,9 +95,9 @@ nav a{
 
  .gradindescreption{
  	background: white; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, white, #f2f2f2); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right,white, #f2f2f2); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right,white, #f2f2f2); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, white, #f2f2f2); /* Standard syntax */
+  background: -webkit-linear-gradient(left, white, #e0e0e0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,white, #e0e0e0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,white, #e0e0e0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white, #e0e0e0); /* Standard syntax */
 
  }
